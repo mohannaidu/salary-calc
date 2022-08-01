@@ -23,6 +23,12 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <maven-surefire-plugin.version>3.0.0-M7</maven-surefire-plugin.version>
         <lombok.version>1.18.24</lombok.version>
+        
+        <!-- sonar properties -->
+        <sonar.projectKey>mfvanek_salarycalc</sonar.projectKey>
+        <sonar.moduleKey>${project.groupId}:${project.artifactId}</sonar.moduleKey>
+        <sonar.organization>mfvanek</sonar.organization>
+        <sonar.host.url>https://sonarcloud.io</sonar.host.url>          
     </properties>
 
     <dependencyManagement>
